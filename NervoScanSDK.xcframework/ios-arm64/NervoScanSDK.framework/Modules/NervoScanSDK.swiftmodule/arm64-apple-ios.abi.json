@@ -1,0 +1,1887 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NervoScanSDK",
+    "printedName": "NervoScanSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LicenseSpring",
+        "printedName": "LicenseSpring",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NervoScanCallback",
+        "printedName": "NervoScanCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onUpdateProgress",
+            "printedName": "onUpdateProgress(seconds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP16onUpdateProgress7secondsySf_tF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP16onUpdateProgress7secondsySf_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onWindowResult",
+            "printedName": "onWindowResult(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP14onWindowResult6resultySDySSSdG_tF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP14onWindowResult6resultySDySSSdG_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFullResult",
+            "printedName": "onFullResult(result:classes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP12onFullResult6result7classesySDySSSdG_SaySSGtF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP12onFullResult6result7classesySDySSSdG_SaySSGtF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMinResult",
+            "printedName": "onMinResult(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP11onMinResult6resultySDySSSdG_tF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP11onMinResult6resultySDySSSdG_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(errorType:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP7onError9errorType0G7MessageySS_SStF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP7onError9errorType0G7MessageySS_SStF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFetchingFinished",
+            "printedName": "onFetchingFinished()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP18onFetchingFinishedyyF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP18onFetchingFinishedyyF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onComplete",
+            "printedName": "onComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP10onCompleteyyF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP10onCompleteyyF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRestart",
+            "printedName": "onRestart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP9onRestartyyF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP9onRestartyyF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCameraError",
+            "printedName": "onCameraError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP13onCameraErroryyF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP13onCameraErroryyF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAuthenticationStatus",
+            "printedName": "onAuthenticationStatus(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB8CallbackP22onAuthenticationStatus7messageySS_tF",
+            "mangledName": "$s12NervoScanSDK0aB8CallbackP22onAuthenticationStatus7messageySS_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.NervoScanCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.NervoScanCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12NervoScanSDK0aB8CallbackP",
+        "mangledName": "$s12NervoScanSDK0aB8CallbackP",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResultCallback",
+        "printedName": "ResultCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onWindowResult",
+            "printedName": "onWindowResult(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK14ResultCallbackP08onWindowD06resultySDySSSdG_tF",
+            "mangledName": "$s12NervoScanSDK14ResultCallbackP08onWindowD06resultySDySSSdG_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.ResultCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.ResultCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFullResult",
+            "printedName": "onFullResult(result:classes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK14ResultCallbackP06onFullD06result7classesySDySSSdG_SaySSGtF",
+            "mangledName": "$s12NervoScanSDK14ResultCallbackP06onFullD06result7classesySDySSSdG_SaySSGtF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.ResultCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.ResultCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMinResult",
+            "printedName": "onMinResult(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK14ResultCallbackP05onMinD06resultySDySSSdG_tF",
+            "mangledName": "$s12NervoScanSDK14ResultCallbackP05onMinD06resultySDySSSdG_tF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.ResultCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.ResultCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12NervoScanSDK14ResultCallbackP",
+        "mangledName": "$s12NervoScanSDK14ResultCallbackP",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NervoScanSdk",
+        "printedName": "NervoScanSdk",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(licenseKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NervoScanSdk",
+                "printedName": "NervoScanSDK.NervoScanSdk",
+                "usr": "c:@M@NervoScanSDK@objc(cs)NervoScanSdk"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12NervoScanSDK0aB3SdkC10licenseKeyACSS_tcfc",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC10licenseKeyACSS_tcfc",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeCameraManager",
+            "printedName": "initializeCameraManager()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC23initializeCameraManageryyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC23initializeCameraManageryyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNervoScanCallback",
+            "printedName": "setNervoScanCallback(nervoScanCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NervoScanCallback",
+                "printedName": "any NervoScanSDK.NervoScanCallback",
+                "usr": "s:12NervoScanSDK0aB8CallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC03setaB8Callback05nervobF0yAA0abF0_p_tF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC03setaB8Callback05nervobF0yAA0abF0_p_tF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCameraPreview",
+            "printedName": "getCameraPreview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraPreview",
+                "printedName": "NervoScanSDK.CameraPreview",
+                "usr": "s:12NervoScanSDK13CameraPreviewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC16getCameraPreviewAA0fG0VyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC16getCameraPreviewAA0fG0VyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCameraSession",
+            "printedName": "getCameraSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureSession?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureSession",
+                    "printedName": "AVFoundation.AVCaptureSession",
+                    "usr": "c:objc(cs)AVCaptureSession"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC16getCameraSessionSo09AVCaptureG0CSgyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC16getCameraSessionSo09AVCaptureG0CSgyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startScan",
+            "printedName": "startScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC05startB0yyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC05startB0yyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScan",
+            "printedName": "stopScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC04stopB0yyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC04stopB0yyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCameraSession",
+            "printedName": "startCameraSession(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC18startCameraSession10completionyySbc_tF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC18startCameraSession10completionyySbc_tF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCameraSession",
+            "printedName": "stopCameraSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC17stopCameraSessionyyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC17stopCameraSessionyyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseNervoScan",
+            "printedName": "releaseNervoScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK0aB3SdkC07releaseaB0yyF",
+            "mangledName": "$s12NervoScanSDK0aB3SdkC07releaseaB0yyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NervoScanSdk",
+                "printedName": "NervoScanSDK.NervoScanSdk",
+                "usr": "c:@M@NervoScanSDK@objc(cs)NervoScanSdk"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NervoScanSDK@objc(cs)NervoScanSdk(im)init",
+            "mangledName": "$s12NervoScanSDK0aB3SdkCACycfc",
+            "moduleName": "NervoScanSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NervoScanSDK@objc(cs)NervoScanSdk",
+        "mangledName": "$s12NervoScanSDK0aB3SdkC",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraPreview",
+        "printedName": "CameraPreview",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPreviewView",
+                "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView",
+                "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<NervoScanSDK.CameraPreview>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraPreview",
+                    "printedName": "NervoScanSDK.CameraPreview",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK13CameraPreviewV10makeUIView7contextAC05VideoE4ViewC7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s12NervoScanSDK13CameraPreviewV10makeUIView7contextAC05VideoE4ViewC7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoPreviewView",
+                "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView",
+                "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<NervoScanSDK.CameraPreview>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraPreview",
+                    "printedName": "NervoScanSDK.CameraPreview",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK13CameraPreviewV12updateUIView_7contextyAC05VideoE4ViewC_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s12NervoScanSDK13CameraPreviewV12updateUIView_7contextyAC05VideoE4ViewC_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "VideoPreviewView",
+            "printedName": "VideoPreviewView",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "layerClass",
+                "printedName": "layerClass",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC10layerClassyXlXpvpZ",
+                "mangledName": "$s12NervoScanSDK13CameraPreviewV05VideoE4ViewC10layerClassyXlXpvpZ",
+                "moduleName": "NervoScanSDK",
+                "static": true,
+                "overriding": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Override"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "any AnyObject.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC10layerClassyXlXpvgZ",
+                    "mangledName": "$s12NervoScanSDK13CameraPreviewV05VideoE4ViewC10layerClassyXlXpvgZ",
+                    "moduleName": "NervoScanSDK",
+                    "static": true,
+                    "overriding": true,
+                    "objc_name": "layerClass",
+                    "declAttributes": [
+                      "Dynamic",
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(frame:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoPreviewView",
+                    "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC5frameAESo6CGRectV_tcfc",
+                "mangledName": "$s12NervoScanSDK13CameraPreviewV05VideoE4ViewC5frameAESo6CGRectV_tcfc",
+                "moduleName": "NervoScanSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "initWithFrame:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(coder:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoPreviewView",
+                        "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView",
+                        "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoder",
+                    "printedName": "Foundation.NSCoder",
+                    "usr": "c:objc(cs)NSCoder"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC5coderAESgSo7NSCoderC_tcfc",
+                "mangledName": "$s12NervoScanSDK13CameraPreviewV05VideoE4ViewC5coderAESgSo7NSCoderC_tcfc",
+                "moduleName": "NervoScanSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "initWithCoder:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "Required"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC",
+            "mangledName": "$s12NervoScanSDK13CameraPreviewV05VideoE4ViewC",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)UIView",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "UIKit.UIView",
+              "UIKit.UIResponder",
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UITraitChangeObservable",
+                "printedName": "UITraitChangeObservable",
+                "usr": "s:5UIKit23UITraitChangeObservableP",
+                "mangledName": "$s5UIKit23UITraitChangeObservableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "__DefaultCustomPlaygroundQuickLookable",
+                "printedName": "__DefaultCustomPlaygroundQuickLookable",
+                "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+                "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "NervoScanSDK.CameraPreview.Coordinator",
+                "usr": "s:12NervoScanSDK13CameraPreviewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK13CameraPreviewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s12NervoScanSDK13CameraPreviewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "NervoScanSDK.CameraPreview.Coordinator",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12NervoScanSDK13CameraPreviewV11CoordinatorCAEycfc",
+                "mangledName": "$s12NervoScanSDK13CameraPreviewV11CoordinatorCAEycfc",
+                "moduleName": "NervoScanSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:12NervoScanSDK13CameraPreviewV11CoordinatorC",
+            "mangledName": "$s12NervoScanSDK13CameraPreviewV11CoordinatorC",
+            "moduleName": "NervoScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12NervoScanSDK13CameraPreviewV",
+        "mangledName": "$s12NervoScanSDK13CameraPreviewV",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoPreviewView",
+                    "printedName": "NervoScanSDK.CameraPreview.VideoPreviewView",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV05VideoE4ViewC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "NervoScanSDK.CameraPreview.Coordinator",
+                    "usr": "s:12NervoScanSDK13CameraPreviewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorCallback",
+        "printedName": "ErrorCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(errorType:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK13ErrorCallbackP02onD09errorType0G7MessageySS_SStF",
+            "mangledName": "$s12NervoScanSDK13ErrorCallbackP02onD09errorType0G7MessageySS_SStF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.ErrorCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.ErrorCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12NervoScanSDK13ErrorCallbackP",
+        "mangledName": "$s12NervoScanSDK13ErrorCallbackP",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompleteCallback",
+        "printedName": "CompleteCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onComplete",
+            "printedName": "onComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12NervoScanSDK16CompleteCallbackP02onD0yyF",
+            "mangledName": "$s12NervoScanSDK16CompleteCallbackP02onD0yyF",
+            "moduleName": "NervoScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : NervoScanSDK.CompleteCallback>",
+            "sugared_genericSig": "<Self where Self : NervoScanSDK.CompleteCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12NervoScanSDK16CompleteCallbackP",
+        "mangledName": "$s12NervoScanSDK16CompleteCallbackP",
+        "moduleName": "NervoScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 38,
+      "value": "\"4f448481-721f-417e-ab4a-4b336db38ed4\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 45,
+      "value": "\"P3enEeHRY8-8_gR3y-lXcktljocszSVxDq2K_OrCQqA\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 11,
+      "value": "\"nervoscan\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "\"nervoscan_SDK\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 7,
+      "value": "\"2.0.4\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/ResultsHandler.swift",
+      "kind": "Array",
+      "offset": 188,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 521,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 565,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/NervoScanSdk.swift",
+      "kind": "BooleanLiteral",
+      "offset": 749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/CameraHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/CameraHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/CameraHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 23,
+      "value": "\"com.demo.sessionQueue\""
+    },
+    {
+      "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/CameraHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1021,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

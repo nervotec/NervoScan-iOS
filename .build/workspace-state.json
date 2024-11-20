@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "pm",
+          "kind" : "root",
+          "location" : "/Users/piumalkumara/Documents/GitHub/Nervotec/IOS/PM",
+          "name" : "PM"
+        },
+        "path" : "/Users/piumalkumara/Documents/GitHub/Nervotec/IOS/PM/NervoScanSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "NervoScanSDK"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}

@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios17.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NervoScanSDK
+import AVFoundation
+import Combine
+import Foundation
+import LicenseSpring
+@_exported import NervoScanSDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NervoScanCallback {
+  func onUpdateProgress(seconds: Swift.Float)
+  func onWindowResult(result: [Swift.String : Swift.Double])
+  func onFullResult(result: [Swift.String : Swift.Double], classes: [Swift.String])
+  func onMinResult(result: [Swift.String : Swift.Double])
+  func onError(errorType: Swift.String, errorMessage: Swift.String)
+  func onFetchingFinished()
+  func onComplete()
+  func onRestart()
+  func onCameraError()
+  func onAuthenticationStatus(message: Swift.String)
+}
+public protocol ResultCallback {
+  func onWindowResult(result: [Swift.String : Swift.Double])
+  func onFullResult(result: [Swift.String : Swift.Double], classes: [Swift.String])
+  func onMinResult(result: [Swift.String : Swift.Double])
+}
+@objc public class NervoScanSdk : ObjectiveC.NSObject, Foundation.ObservableObject {
+  public init(licenseKey: Swift.String)
+  public func initializeCameraManager()
+  public func setNervoScanCallback(nervoScanCallback: any NervoScanSDK.NervoScanCallback)
+  public func getCameraPreview() -> NervoScanSDK.CameraPreview
+  public func getCameraSession() -> AVFoundation.AVCaptureSession?
+  public func startScan()
+  public func stopScan()
+  public func startCameraSession(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func stopCameraSession()
+  public func releaseNervoScan()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct CameraPreview : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: NervoScanSDK.CameraPreview.Context) -> NervoScanSDK.CameraPreview.VideoPreviewView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: NervoScanSDK.CameraPreview.VideoPreviewView, context: NervoScanSDK.CameraPreview.Context)
+  @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VideoPreviewView : UIKit.UIView {
+    @_Concurrency.MainActor @preconcurrency @objc override dynamic public class var layerClass: Swift.AnyClass {
+      @objc get
+    }
+    @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+    @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+    @objc deinit
+  }
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> NervoScanSDK.CameraPreview.Coordinator
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject {
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = NervoScanSDK.CameraPreview.VideoPreviewView
+}
+public protocol ErrorCallback {
+  func onError(errorType: Swift.String, errorMessage: Swift.String)
+}
+public protocol CompleteCallback {
+  func onComplete()
+}
+extension NervoScanSDK.CameraPreview : Swift.Sendable {}
