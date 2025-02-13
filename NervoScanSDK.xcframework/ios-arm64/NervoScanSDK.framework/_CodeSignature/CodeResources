@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/LicenseSpring.framework/LicenseSpring</key>
 		<data>
-		R8vVREFaCZch+PxLTVpa5TWFpOc=
+		JbGS3IGIYvsoDADbxbzowhfUjKQ=
 		</data>
 		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		smzk2VbnPhvNZ9dnafHJy6zN6xo=
+		w3g9Ps/H0R+ByKHiUMcdLjWMWRs=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		bgUHZ6vQFDDK/vcZQhG7ZeDGZew=
+		QCjTApWd/9H4mDdRtyJ7mDZ3j2g=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		sWErUpDSDa7Ksdk5OZuhZT/pj4E=
+		Xg884loEvERmAbKEGTmqVxSRojE=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		HYEgavKnk6/hWGjwmPZm5OO82NY=
+		0fuNxdBI2b4QYiHTZXA+jgpOGuU=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		sWErUpDSDa7Ksdk5OZuhZT/pj4E=
+		Xg884loEvERmAbKEGTmqVxSRojE=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eayFh+FFPSCse31pNQigoF15ya4=
+		znvOUqZgsxu9qM/MV4GgDvwskpc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/LVCWsTDH6OX+T0CFL4QY7fdAcshV/LiURfRYRNwQ2c=
+			EJGqVCswKD/YO+oUQrmWN9TP0zuF3WbqzjzzQRw86tc=
 			</data>
 		</dict>
 		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n8Pj3tgCLVSB+q8c+eFK/NH2LDT17fLp+0A1BuM5wsY=
+			hC3HO0UqqsyBp22dHLAi0463Fm6bVbEGAfJR5qAUQzU=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -136,28 +136,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rriZELeGrAmjf+slrbyO37WnLQW4fuv21g6K243gP5I=
+			31npPe6QozqS1AbTLCPMkA0vYXCu/g0F37fEQDZaHPU=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			phCjxUZiIanQPrKNa+Z6tGzgONy+cEkhh9Rfajkph0I=
+			Y6K7JcuJ5yz5n/JtWabKRzcxbxwOL3VljbELuw7J5S4=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rriZELeGrAmjf+slrbyO37WnLQW4fuv21g6K243gP5I=
+			31npPe6QozqS1AbTLCPMkA0vYXCu/g0F37fEQDZaHPU=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrwlMZ63wn6K/wkqjZ5zvL880NDmCobC7gHw694YbIc=
+			D4dmLnMrBDayi/xGJ9YevLSzV4Xg73A+VOGzgEqfVgY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
