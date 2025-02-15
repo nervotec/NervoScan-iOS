@@ -26,19 +26,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZF54J81r5PvUCaR770aQw9X458w=
+		y7nx46ue4HuL19qnl5Il+Yd40kU=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		9qzwThgKmjesv1vMK9x5gzWtXK4=
+		vKdv9mL906Ix6CCE0BQnq5j7PAs=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		otzYgl2ZtHge55GitKCdF2RaVp0=
+		B1rvu/HmQpvOS4SrcxdvXCkYDio=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xeWJRLuv8p7mLVi8HvNAIslvUCM=
+		P425A7U3XSJ3lJv/AGzSIoN2o8M=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xeWJRLuv8p7mLVi8HvNAIslvUCM=
+		P425A7U3XSJ3lJv/AGzSIoN2o8M=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -146,21 +146,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5ry7uj/nkDbnXLFMRRdyGxWUr8dUtr76zkyvVIr0ig=
+			iHB4bxxXhrRYCNv9xioQ7kt3D5k2+rjllpZM0iFlZ+U=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			800khj9Vmor0ws4VJoCNfUc4qCYnYMyPUmbAQpC8/zI=
+			q8zdnMYxwjFR3S7vWcyA+Xihv7/bsUROnLaD5ryhM9k=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			82L1RFycEM+XUbUkmoV6IqUYzIb1NbGdt+0z/5AH1ow=
+			5d3zUwSf+CU869or9WbeKbgOsmPO6UhzHzUtqyWdoG8=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			82L1RFycEM+XUbUkmoV6IqUYzIb1NbGdt+0z/5AH1ow=
+			5d3zUwSf+CU869or9WbeKbgOsmPO6UhzHzUtqyWdoG8=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
