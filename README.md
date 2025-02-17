@@ -1,24 +1,42 @@
 # NervoScan SDK for iOS
 
-Welcome to the **NervoScan SDK**, a comprehensive solution for integrating real-time health monitoring features into your iOS applications.
+Welcome to the **NervoScan SDK**, a powerful Software Development Kit (SDK) designed for real-time physiological data scanning and analysis on iOS applications. 
 
 ---
 
 ## 📝 Overview
 
-The NervoScan SDK provides cutting-edge real-time health monitoring capabilities, including:
+**The NervoScan SDK** is a powerful Software Development Kit (SDK) tailored for real-time
+scanning and analysis of physiological data. Designed for IOS applications, it provides
+functionalities to monitor vital signs and offer immediate feedback. Key features include:
 
-- **SPO2 (Oxygen Saturation)**
-- **Heart Rate (HR)**
-- **Respiratory Rate (RR)**
-- **Heart Rate Variability (HRV)**
-- **Stress Level**
-- **Blood Pressure**
-- **HbA1C (Glycated Hemoglobin)**
-- **Hemoglobin Levels**
-- **Health Score**
+### **Key Features**
 
-Perfect for health and fitness apps, the SDK is designed for seamless integration, efficient algorithms, and reliable results.
+1. **Heart Rate (HR)**
+2. **Heart Rate Variability (HRV)**
+   - Stress Level Classification
+3. **Blood Pressure (BP)**
+   - Systolic (SBP) and Diastolic (DBP)
+   - Blood Pressure Classification
+4. **Respiration Rate (RR)**
+5. **SDNN**
+6. **PNN50**
+7. **RMSSD**
+8. **Oxygen Saturation (SpO2)**
+9. **Hemoglobin Levels**
+10. **HbA1c** (Glycated Hemoglobin)
+11. **Health Score**
+
+### **How It Works**
+- Utilizes the device camera for vital sign detection.
+- Implements advanced signal processing and machine learning techniques.
+- Includes robust error handling for accurate readings.
+- Provides seamless real-time feedback.
+
+### **Compatibility**
+- **Supported Platforms:** iOS 13.0 and later
+- **Programming Language:** Swift 
+- **Integration:** Compatible with Swift Package Manager (SPM) and CocoaPods
 
 👉 Visit our [official website](https://nervotec.com) for more details.
 
@@ -130,27 +148,152 @@ struct ScanView: View {
 }
 ```
 
+### 2. Set Callbacks
+
+The NervoScan SDK provides several callback methods to handle different stages and results during a scan. Developers can implement these methods to process data, update user interfaces, and handle errors effectively.
+
 ---
 
-## 🛠️ Testing
+## 📖 Callback Methods
 
-### Unit Tests
+### **onCameraError**
+**Purpose:** Handles errors related to camera access or permissions.
 
-Run unit tests:
+**Implementation Guidelines:**
+- Notify the user about camera access issues.
+- Provide instructions on enabling permissions.
 
-1. Select the test scheme in Xcode.
-2. Press `Command+U`.
+```swift
+func onCameraError() {
+    DispatchQueue.main.async {
+        self.alertMessage = "Camera Permission Denied. Please enable camera access in settings."
+        self.showAlert = true
+    }
+}
+```
 
+### **onUpdateProgress**
+**Purpose:** Provides real-time progress updates during the scanning process.
+
+**Implementation Guidelines:**
+- Update UI elements such as a progress bar.
+- Display scan progress dynamically.
+
+```swift
+func onUpdateProgress(seconds: Float) {
+    DispatchQueue.main.async {
+        self.scanTime = seconds
+        self.progressValue = seconds / 60
+    }
+}
+```
+
+### **onWindowResult**
+**Purpose:** Processes real-time, window-level results.
+
+**Implementation Guidelines:**
+- Extract and update biometric parameters.
+- Display real-time updates in the UI.
+
+```swift
+func onWindowResult(result: [String: Double]) {
+    DispatchQueue.main.async {
+        self.scanData = result
+    }
+}
+```
+
+### **onFullResult**
+**Purpose:** Provides comprehensive scan results, including biometric values and classification results.
+
+**Implementation Guidelines:**
+- Parse and store full scan data.
+- Use classification results for health analysis.
+
+```swift
+func onFullResult(result: [String: Double], classes: [String]) {
+    DispatchQueue.main.async {
+        self.averageScanData = result
+        self.scanClasses = classes
+    }
+}
+```
+
+### **onMinResult**
+**Purpose:** Outputs the minimum recorded biometric values.
+
+**Implementation Guidelines:**
+- Display minimum health metrics.
+- Store values for historical tracking.
+
+```swift
+func onMinResult(result: [String: Double]) {
+    DispatchQueue.main.async {
+        self.minScanData = result
+    }
+}
+```
+
+### **onError**
+**Purpose:** Handles errors encountered during the scanning process.
+
+**Implementation Guidelines:**
+- Display user-friendly error messages.
+- Provide retry options or troubleshooting steps.
+
+```swift
+func onError(errorType: String, errorMessage: String) {
+    DispatchQueue.main.async {
+        self.alertMessage = errorMessage
+        self.showAlert = true
+    }
+}
+```
+
+### **onFetchingFinished**
+**Purpose:** Indicates completion of data fetching and transition to result processing.
+
+**Implementation Guidelines:**
+- Notify the user that processing is underway.
+- Display a loading indicator if necessary.
+
+```swift
+func onFetchingFinished() {
+    print("Fetching phase complete. Processing results now.")
+}
+```
+
+### **onComplete**
+**Purpose:** Signals the successful completion of the scan process.
+
+**Implementation Guidelines:**
+- Notify the user that the scan is complete.
+- Save and process scan results.
+
+```swift
+func onComplete() {
+    DispatchQueue.main.async {
+        self.isCompleted = true
+        print("Scan completed successfully.")
+    }
+}
+```
+
+---
 Ensure you have a valid license key for testing.
 
 ### Sample App
 
-The repository includes a sample app demonstrating SDK integration:
+This repository includes a sample app demonstrating SDK integration:
 
 1. Clone the repository.
-2. Open `NervoScanSample.xcodeproj`.
-3. Add your valid license key to the sample app.
-4. Run the app on a physical device for optimal results.
+   Clone the repository:  
+   ```swift
+   git clone https://github.com/nervotec/NervoScanSampleIos.git
+   ```
+3. Open `NervoScanSample.xcodeproj`.
+4. Add your valid license key to the sample app.
+5. Run the app on a physical device for optimal results.
 
 ---
 
