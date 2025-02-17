@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/LicenseSpring.framework/Info.plist</key>
-		<data>
-		nTZq/egSZM4VULOQSdiIldo2+6Q=
-		</data>
-		<key>Frameworks/LicenseSpring.framework/LicenseSpring</key>
-		<data>
-		mjoZl+3fu97kBAKAXXv8SNSlQ1Y=
-		</data>
-		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
-		<data>
-		weq5TmHTiOgUU2C0ZiCSIDW+/m0=
-		</data>
 		<key>Headers/NervoScanSDK.h</key>
 		<data>
 		T15XKLX8Lw0nwn79uR0ZJo9mVd4=
@@ -30,15 +18,15 @@
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vKdv9mL906Ix6CCE0BQnq5j7PAs=
+		V+pK933Lq3OevRlNbyTcIR9FPok=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		B1rvu/HmQpvOS4SrcxdvXCkYDio=
+		kBDGwkaBPsS4EA4ToWZqRh+3uIk=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		P425A7U3XSJ3lJv/AGzSIoN2o8M=
+		xeWJRLuv8p7mLVi8HvNAIslvUCM=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +46,7 @@
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		P425A7U3XSJ3lJv/AGzSIoN2o8M=
+		xeWJRLuv8p7mLVi8HvNAIslvUCM=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -107,27 +95,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/LicenseSpring.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jGeZgoqNWrcJse07i5r6ZZ4VyblqJBzZAZ+VBsoqYCs=
-			</data>
-		</dict>
-		<key>Frameworks/LicenseSpring.framework/LicenseSpring</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HPIvV3jcbUfw8E3X3pUy/pHUvLtdeXhg/NO6EqhbTtU=
-			</data>
-		</dict>
-		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lxAs8EzY2T7RB66CJOnjwKRR34DkG1P0FfSiwhZkvmM=
-			</data>
-		</dict>
 		<key>Headers/NervoScanSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -146,21 +113,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHB4bxxXhrRYCNv9xioQ7kt3D5k2+rjllpZM0iFlZ+U=
+			X444hUtMdI9Z6mQNbdkGDAROaU9NOp3QcD/AAJto3PA=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8zdnMYxwjFR3S7vWcyA+Xihv7/bsUROnLaD5ryhM9k=
+			SRpIHn/20/FJJoNvc6vOPgjtilEB8y6YEQn7lr8wNmI=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5d3zUwSf+CU869or9WbeKbgOsmPO6UhzHzUtqyWdoG8=
+			82L1RFycEM+XUbUkmoV6IqUYzIb1NbGdt+0z/5AH1ow=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -195,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5d3zUwSf+CU869or9WbeKbgOsmPO6UhzHzUtqyWdoG8=
+			82L1RFycEM+XUbUkmoV6IqUYzIb1NbGdt+0z/5AH1ow=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

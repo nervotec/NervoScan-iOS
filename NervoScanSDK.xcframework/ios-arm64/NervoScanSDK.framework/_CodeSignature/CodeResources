@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/LicenseSpring.framework/Info.plist</key>
-		<data>
-		8U4jZUoixYFFCESIF+zeXoUXqjY=
-		</data>
-		<key>Frameworks/LicenseSpring.framework/LicenseSpring</key>
-		<data>
-		JbGS3IGIYvsoDADbxbzowhfUjKQ=
-		</data>
-		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
-		<data>
-		41TZUIrwb6hJe6CNNPmEzpLKQ/k=
-		</data>
 		<key>Headers/NervoScanSDK.h</key>
 		<data>
 		T15XKLX8Lw0nwn79uR0ZJo9mVd4=
@@ -30,11 +18,11 @@
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		1gLrqzRNhDVlrv7Wi+9KEC0iDWc=
+		U4P3I1gPjUPoJSALAwsch3A+cAU=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		P425A7U3XSJ3lJv/AGzSIoN2o8M=
+		xeWJRLuv8p7mLVi8HvNAIslvUCM=
 		</data>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -83,27 +71,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/LicenseSpring.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rtsrQyk+EPaxMPfnk/NmC7n3WKNvnGkl+RojfCyZ/ds=
-			</data>
-		</dict>
-		<key>Frameworks/LicenseSpring.framework/LicenseSpring</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EJGqVCswKD/YO+oUQrmWN9TP0zuF3WbqzjzzQRw86tc=
-			</data>
-		</dict>
-		<key>Frameworks/LicenseSpring.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g7rJZ/NNbDjLOc5gIlbVUJqcohX6NP97vawic+MhN0k=
-			</data>
-		</dict>
 		<key>Headers/NervoScanSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -122,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BW8kSHIPtqWxTEl2hUs5oJ9ugabqpvP8EL9PWfBdFSo=
+			46MEBfKeQTe3K2q9p+zPFOSHGDCJ06FbZziGhN9gOu4=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5d3zUwSf+CU869or9WbeKbgOsmPO6UhzHzUtqyWdoG8=
+			82L1RFycEM+XUbUkmoV6IqUYzIb1NbGdt+0z/5AH1ow=
 			</data>
 		</dict>
 		<key>Modules/NervoScanSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>

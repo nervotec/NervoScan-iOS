@@ -1739,42 +1739,42 @@
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 195,
+      "offset": 190,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 221,
       "length": 38,
       "value": "\"4f448481-721f-417e-ab4a-4b336db38ed4\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 288,
       "length": 45,
       "value": "\"P3enEeHRY8-8_gR3y-lXcktljocszSVxDq2K_OrCQqA\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 369,
+      "offset": 364,
       "length": 11,
       "value": "\"nervoscan\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 402,
       "length": 15,
       "value": "\"nervoscan_SDK\""
     },
     {
       "filePath": "\/Users\/piumalkumara\/Documents\/GitHub\/Nervotec\/IOS\/NervoIosSDK\/NervoScanSDK\/LicenseHandler.swift",
       "kind": "StringLiteral",
-      "offset": 452,
+      "offset": 447,
       "length": 7,
       "value": "\"2.0.4\""
     },
