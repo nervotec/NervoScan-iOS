@@ -66,7 +66,7 @@ Easily add the **NervoScan SDK** and **LicenseSpring SDK** to your project using
      ```
    - **LicenseSpring SDK**:  
      ```
-    https://github.com/licensespringios/licensespring
+     https://github.com/licensespringios/licensespring
      ```
 
 ## Step 2: Choose Versions
