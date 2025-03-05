@@ -1,0 +1,6 @@
+framework module NervoScanSDK {
+  umbrella header "NervoScanSDK.h"
+  export *
+
+  module * { export * }
+}
