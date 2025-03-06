@@ -84,7 +84,7 @@ Easily add the **NervoScan SDK** and **LicenseSpring SDK** to your project using
 
 ## 🔑 Licensing
 
-The NervoScan SDK requires a valid license key. To obtain one, contact us at **sales@nervoscan.com**.
+The NervoScan SDK requires a valid license key. To obtain one, contact us at **info@nervoscan.com**.
 
 ### Adding the License Key
 
