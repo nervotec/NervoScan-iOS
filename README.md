@@ -412,11 +412,8 @@ Ensure you have a valid license key for testing.
 
 This repository includes a sample app demonstrating SDK integration:
 
-1. Clone the repository.
-   Clone the repository:  
-   ```swift
-   git clone https://github.com/nervotec/NervoScanSampleIos.git
-   ```
+1. Download the repository from the following link:  
+   [Click here to download](https://drive.google.com/file/d/1teTYQHk6ooJZ7wLK1vPqDUGxX2YC697P/view)
 3. Open `NervoScanSample.xcodeproj`.
 4. Add your valid license key to the sample app.
 5. Run the app on a physical device for optimal results.
@@ -431,13 +428,13 @@ This repository includes a sample app demonstrating SDK integration:
 - **Camera Access Denied:** Verify app permissions in **Settings > Privacy > Camera**.
 - **Installation Issues:** Ensure your Xcode project targets iOS 13.0 or later.
 - **Framework Not Found: Check if the framework is correctly added:
-   
-    Go to General > Frameworks, Libraries, and Embedded Content.
+    Go to General > Frameworks, Libraries, a.
     Verify that NervoScanSDK appears in the list.
-    If missing, click + and add NervoScanSDK.framework.
-    Ensure the Embed option is set to Embed & Sign.
-    Clean and rebuild the project
-    
+    If missing, click +  add NervoScanSDK.framework.
+    and LicenseSpring.xcframework
+- **Date header is not valid: Ensure 24-Hour Time is enabled in Settings > General > Date & Time.
+
+  
 ### Known Limitations
 
 - **Simulator Support:** Camera functionality is unavailable on the iOS Simulator. Use a physical device.
